@@ -1,6 +1,6 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
-import './headerOption.css'
+import './headerOption.css';
 export default function HeaderOption({ title, Icon,avatar }) {
     return (
         <div className='headerOption'>

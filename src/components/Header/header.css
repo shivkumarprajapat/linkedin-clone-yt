@@ -8,6 +8,8 @@
   padding: 10px 0;
   width: 100%;
   align-items: center;
+  background-color: #fff;
+  margin-bottom: 25px;
 }
 .header__left {
   display: flex;

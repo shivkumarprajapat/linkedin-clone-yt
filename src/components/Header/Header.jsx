@@ -1,10 +1,12 @@
 import React from 'react'
-import './Header.css'
+import './header.css';
+
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import PeopleIcon from '@material-ui/icons/People';
 import HeaderOption from './HeaderOption';
 import WorkIcon from '@material-ui/icons/Work';
+
 export default function Header() {
     return (
         <div className='header'>
