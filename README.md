@@ -1,3 +1,14 @@
+# 1️⃣ LINKEDIN with Redux & Firebase
+
+## 📚 We'll be learning the following:
+1. 👉 The React fundamentals
+2. 👉 Lots of practice with React Hooks!
+3. 👉 How to manage data in a react app using Redux
+4. 👉 How to integrate a realtime database using Firebase Firestore
+5. 👉 Build beautiful apps with incredible UI/UX using Material UI
+6. 👉 How to craft responsive websites with Flexbox!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
