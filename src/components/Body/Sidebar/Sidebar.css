@@ -19,61 +19,69 @@
   border-bottom: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   background-color: white;
-}
-.sidebar_top > h4 {
-  margin: 0;
-  color: gray;
-  font-size: 12px;
-  padding-bottom: 10px;
-}
-.sidebar_top > h2 {
-  font-size: 18px;
-  margin: 0;
 }
 
 .sidebar_top > img {
   margin-bottom: -20px;
-  width: 250px;
-  height: 56px;
+  height: 60px;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
 }
-.sidebar_stat {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-.sidebar_stat > p {
+
+.sidebar_top > h4 {
   color: gray;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+}
+
+.sidebar_top > h2 {
+  font-size: 18px;
 }
 
 .sidebar_stats {
   padding: 10px;
   margin-bottom: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top: 1px solid lightgray;
-  background-color: white;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.sidebar_starNumber {
+.sidebar_stat {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar_stat > p {
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stat_number {
   font-weight: bold;
   color: #0a66c2 !important;
 }
+
 .sidebar_bottom {
   text-align: left;
   padding: 10px;
   border: 1px solid lightgray;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
   margin-top: 10px;
 }
-.sidebar_recentItem {
+
+.sidebar_bottom > p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.recentItem {
   display: flex;
   font-size: 13px;
   color: gray;
@@ -82,17 +90,15 @@
   margin-bottom: 5px;
   padding: 5px;
 }
-.sidebar_bottom > p {
-  font-size: 13px;
-  padding-bottom: 13px;
-}
-.sidebar_recentItem:hover {
-  background: whitesmoke;
+
+.recentItem:hover {
+  background-color: whitesmoke;
   border-radius: 10px;
   cursor: pointer;
-  color: black;
+  color: #000;
 }
+
 .sidebar_hash {
   margin-right: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
